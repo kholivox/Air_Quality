@@ -42,3 +42,40 @@ Ensure you have **Python** installed on your system.
    ```bash
    git clone https://github.com/kholivox/Air_Quality.git
    cd Air_Quality
+
+3. ```bash
+   cd heart-disease-prediction
+
+4. ```bash
+   pip install -r requirements.txt
+
+5. ```bash
+   python manage.py migrate
+
+6. ```bash
+   python manage.py runserver
+
+---   
+
+
+🌐 Access the Application
+### Open a web browser and go to: http://127.0.0.1:8000/
+### Register or log in to access the Heart Disease Prediction form.
+### Enter patient data to receive a prediction of heart disease risk.
+
+
+---
+
+🧩 Project Structure
+**Backend:** Contains machine learning models and Django views.
+**Frontend:** Templates for the user interface with HTML, CSS, and Django templating.
+**Static Files:** CSS and JavaScript files for styling and interactivity.
+
+---
+
+⚙️ How to Run the Code
+To run the application, follow these steps:
+
+**1.Install the Requirements:** Run pip install -r requirements.txt to install all dependencies.
+**2.Run the Server:** Start the server using python manage.py runserver.
+**3.Access the Application:** Open http://127.0.0.1:8000/ in your browser.
